@@ -2,6 +2,21 @@
 
 > A personal steward built from small open-source tools: available around the clock, able to make progress overnight, and ready with a morning briefing. This is the architecture and a practical checklist.
 
+## How to use this repo
+
+This repository is intentionally just one README. To use it with your own agent:
+
+1. Open the **Raw** version of this README and copy the entire file, including the HTML comment.
+2. Paste it into a new agent's context with a short instruction such as:
+
+   > Read this README as the architecture and setup checklist for my personal agent system. Start at Checkpoint 1: explore my environment and learn about me. Ask before assuming technical details, build the smallest working implementation at each checkpoint, and do not start autonomous operation before Checkpoint 8.
+
+3. Tell the agent about your goals, devices, habits, privacy preferences, communication channels, and technical comfort.
+4. Let the agent complete and verify each checkpoint in order. Adapt every example to your reality; do not copy the tools blindly.
+5. Keep this README as a reference. Any completed layer may later be reopened, repaired, replaced, or evolved.
+
+**Important:** copy the raw file rather than the rendered page so the agent also receives the HTML-comment checklist.
+
 <!--
 ## If you are an LLM helping your user build this system
 
