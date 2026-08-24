@@ -14,9 +14,7 @@ You can either:
 - Send your agent this GitHub URL and ask it to read the README:
   <https://github.com/Microwave-WYB/my-agents>
 
-Then tell the agent about your goals, devices, habits, privacy preferences, communication channels, and technical comfort. Use this prompt if helpful:
-
-> Read this README as the architecture and setup checklist for my personal agent system. Start at Checkpoint 1: explore my environment and learn about me. Ask before assuming technical details, build the smallest working implementation at each checkpoint, and do not start autonomous operation before Checkpoint 8.
+Then tell the agent about your goals, devices, habits, privacy preferences, communication channels, and technical comfort. The agent can read the instructions and checklist in this README directly; no extra prompt is needed.
 
 Adapt every example to your reality; do not copy the tools blindly. Keep this README as a reference: any completed layer may later be reopened, repaired, replaced, or evolved.
 
