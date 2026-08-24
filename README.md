@@ -24,13 +24,6 @@ The rest of this README is your architecture guide and checklist. Read it before
 
 ## If you are an agent: this is your checklist
 
-### Five things to remember
-1. You are building a **framework**, not copying a configuration. Map every example to the user's reality: email, trusted LLM, Telegram, privacy, and habits.
-2. **Remote access is the foundation**: make Tailscale SSH work before adding Telegram or a web UI.
-3. **The top-level steward never blocks**: delegate slow work instead of waiting.
-4. **Persist state; do not persist secrets**: state belongs in skill files and git; secrets use direnv/getpass and never enter git, Telegram messages, command arguments, or logs.
-5. **Keep roles separate and communication asynchronous**: A coordinates, B implements, C edits files; agents use intercom `send`, never `ask`.
-
 ### Setup checklist
 > Build a working minimum at each checkpoint, verify it, and then add the next layer. A completed layer is never frozen: reopen, repair, replace, or evolve it whenever needed. Before checkpoint 8, build and verify only; do not start autonomous operation.
 
@@ -228,3 +221,11 @@ GETPASS_TTL=600 node …/getpass-web.ts "prompt" # one-time secret input
 ---
 
 *Every implementation here is an example, not a doctrine. I use a tool because it happens to fit my reality; adapt it to yours and evolve it into your own system.*
+
+## Things to remember
+
+1. You are building a **framework**, not copying a configuration. Map every example to the user's reality: email, trusted LLM, Telegram, privacy, and habits.
+2. **Remote access is the foundation**: make Tailscale SSH work before adding Telegram or a web UI.
+3. **The top-level steward never blocks**: delegate slow work instead of waiting.
+4. **Persist state; do not persist secrets**: state belongs in skill files and git; secrets use direnv/getpass and never enter git, Telegram messages, command arguments, or logs.
+5. **Keep roles separate and communication asynchronous**: A coordinates, B implements, C edits files; agents use intercom `send`, never `ask`.
