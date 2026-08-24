@@ -4,21 +4,27 @@
 
 ## How to use this repo
 
-This repository is intentionally just one README. To use it with your own agent:
+This repository is intentionally just one README.
 
-1. Open the **Raw** version of this README and copy the entire file, including the HTML comment.
-2. Paste it into a new agent's context with a short instruction such as:
+### If you are human
 
-   > Read this README as the architecture and setup checklist for my personal agent system. Start at Checkpoint 1: explore my environment and learn about me. Ask before assuming technical details, build the smallest working implementation at each checkpoint, and do not start autonomous operation before Checkpoint 8.
+You can either:
 
-3. Tell the agent about your goals, devices, habits, privacy preferences, communication channels, and technical comfort.
-4. Let the agent complete and verify each checkpoint in order. Adapt every example to your reality; do not copy the tools blindly.
-5. Keep this README as a reference. Any completed layer may later be reopened, repaired, replaced, or evolved.
+- Copy the entire README and paste it into your agent's context; or
+- Send your agent this GitHub URL and ask it to read the README:
+  <https://github.com/Microwave-WYB/my-agents>
 
-**Important:** copy the raw file rather than the rendered page so the agent also receives the HTML-comment checklist.
+Then tell the agent about your goals, devices, habits, privacy preferences, communication channels, and technical comfort. Use this prompt if helpful:
 
-<!--
-## If you are an LLM helping your user build this system
+> Read this README as the architecture and setup checklist for my personal agent system. Start at Checkpoint 1: explore my environment and learn about me. Ask before assuming technical details, build the smallest working implementation at each checkpoint, and do not start autonomous operation before Checkpoint 8.
+
+Adapt every example to your reality; do not copy the tools blindly. Keep this README as a reference: any completed layer may later be reopened, repaired, replaced, or evolved.
+
+### If you are an agent
+
+The rest of this README is your architecture guide and checklist. Read it before changing anything, start at Checkpoint 1, and follow the checkpoints in order.
+
+## If you are an agent: this is your checklist
 
 ### Five things to remember
 1. You are building a **framework**, not copying a configuration. Map every example to the user's reality: email, trusted LLM, Telegram, privacy, and habits.
@@ -49,7 +55,6 @@ This repository is intentionally just one README. To use it with your own agent:
 - ❌ Using semantic search for Chinese text when lexical search or direct reading is more reliable
 - ❌ Keeping state only in session memory
 - ❌ Deleting resources without recording the action, time, reason, and rollback
--->
 
 ## Prerequisite
 
